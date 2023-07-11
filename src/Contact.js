@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import Navbar from "./Navbar";
 import './App.css';
 
 export default function Contact() {
@@ -6,6 +7,7 @@ export default function Contact() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Navbar />
         <p>
           Contact Here.
         </p>

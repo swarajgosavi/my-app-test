@@ -1,4 +1,5 @@
 import './App.css';
+import Navbar from "./Navbar";
 import logo from './logo.svg';
 
 export default function About() {
@@ -6,6 +7,7 @@ export default function About() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Navbar />
         <p>
           This is About.
         </p>
