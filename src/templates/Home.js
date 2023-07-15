@@ -1,15 +1,13 @@
-import './App.css';
-import Navbar from "./Navbar";
-import logo from './logo.svg';
+import logo from '../logo.svg';
+import '../App.css';
 
-export default function About() {
+export default function Home() {
     return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Navbar />
         <p>
-          This is About.
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"

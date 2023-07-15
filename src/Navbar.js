@@ -4,13 +4,13 @@ import './App.css';
 export default function Navbar() {
     return (
         <div className="App">
-            <header>
+            <center>
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
-            </header>
+            </center>
         </div>
     )
 }
